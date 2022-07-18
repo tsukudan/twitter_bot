@@ -37,12 +37,15 @@ articles = [
      "HASH_TAG":"#Visual Studio Code"},
     {"ABST":"仮想サーバー、TwitterAPI、cron設定を用いた過去記事ツイートbotの作り方を解説した記事。",
      "URL":"https://t-chemkunfu-y.com/program/article-tweet-bot/",
-     "HASH_TAG":"#python自動化"}    
+     "HASH_TAG":"#python自動化"} ,
+    {"ABST":"データ分析における統計学の役割をまとめた記事",
+     "URL":"https://t-chemkunfu-y.com/data-science/statistics/cozuse-in-analy/",
+     "HASH_TAG":"#統計学"} 
 ]
 
 
 #数値をランダムで取得。indexに格納。
-index = random.randint(0,11)
+index = random.randint(0,12)
 
 
 #取得したindexを用いて、リストの中から辞書を取得。
